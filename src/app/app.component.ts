@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'showcase';
+  
+
+
+  showValueFromNavbar: boolean = false
+  passToMain(event: any){
+    this.showValueFromNavbar = event
+  }
 }

@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    color: teal;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width: 70%;
+    padding: 2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+    #form{
+        // display: block;
+        width: 25%;
+        height: 45vh;
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 2rem;
+        box-shadow: 1px 2px 2px 3px gray;
+
+        input{
+            width: 300px;
+            height: 25px;
+            border: 0;
+            border-bottom: 1px solid black;
+            margin-top: 20px;
+        }
+    }
+
+    #display{
+        width: 25%;
+        height: 45vh;
+        margin-top: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        box-shadow: 1px 2px 2px 3px gray;
+        padding: 2rem;
+    }
+}

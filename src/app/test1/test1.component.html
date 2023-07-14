@@ -1,0 +1,23 @@
+<h1>Mini-CV Showcase</h1>
+<div class="main">
+  <div id="form">
+    <input [(ngModel)]="name" type="text" name="name" placeholder="Enter your name">
+    <input [(ngModel)]="job" type="text" name="job" placeholder="Enter your occupation">
+    <input [(ngModel)]="address" type="text" name="address" placeholder="Enter your address">
+    <input [(ngModel)]="email" type="email" name="email" placeholder="Enter your email">
+    <input [(ngModel)]="phone" type="tel" name="phone" placeholder="Enter your number">
+    <input [(ngModel)]="skills" type="text" name="skills" placeholder="What are ypur skills?">
+    <input [(ngModel)]="hobbies" type="text" name="hobbies" placeholder="What do tou like doing?">
+    <input [(ngModel)]="experience" type="text" name="experience" placeholder="What experience do you have">
+  </div>
+  <div id="display">
+    <p>My name is {{ name }}</p>
+    <p>I am a {{ job }} </p>
+    <p>I live at {{ address }}</p>
+    <p>Email: {{ email }}</p>
+    <p>phone number {{ phone }}</p>
+    <p>i'm good in {{ skills }}</p>
+    <p>I love {{ hobbies }}</p>
+    <p>I'm experienced in {{ experience }}</p>
+  </div>
+</div>

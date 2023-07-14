@@ -1,0 +1,36 @@
+<!--ngif Directive-->
+<h1>Showcase List - Structural Directives</h1>
+<div class="content-section" *ngIf="showAboutShowcase">
+    <h1>About Showcase list</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+       Sed magni explicabo quaerat quia perspiciatis!
+       Pariatur facilis, corporis, possimus aliquam consequuntur nihil
+       dolorum necessitatibus accusamus esse, cum id porro quibusdam et?
+    </p>
+</div>
+<!--ngFor Directive-->
+<div *ngIf="showShowcaseList" class="list-section"></div>
+<div class="list-section">
+    <!--List of users-->
+    <div class="user-container" >
+        <h1>Showcase - User List</h1>
+    <div class="user-item" *ngFor="let user of users">
+        <p>username : {{user.username}}</p>
+        <p>age : {{user.age}}</p>
+        <p>gender : {{user.gender}}</p>
+        <p>profession : {{user.profession}}</p>
+        </div>
+    </div>
+</div>    
+
+
+
+
+
+
+
+
+
+
+
+
